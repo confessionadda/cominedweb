@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Voting Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+    .button {
+      background-color: #ffffff;
+      color: #1f4037;
+      padding: 15px 30px;
+      margin: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    .button:hover {
+      background-color: #f0f0f0;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Welcome to the Voting Portal 🎉</h1>
+
+  <button class="button" onclick="location.href='voting.html'">🗳️ Go to Voting Page</button>
+  <button class="button" onclick="location.href='result.html'">📊 View Results</button>
+</body>
+</html>
