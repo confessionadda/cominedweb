@@ -1,5 +1,5 @@
 
-const gameName = 'crush'; 
+const gameName = 'crushgirls'; 
 
 
 function loadNominees() {
